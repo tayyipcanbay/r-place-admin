@@ -1,7 +1,7 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Login from './pages/login';
-import Panel from './pages/panel';
+import Dashboard from './pages/dashboard';
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Login />} />
-          <Route path="/panel" element={<Panel />} />
+          <Route path="/panel" element={<Dashboard />} />
         </Routes>
       </Router>
     </div>

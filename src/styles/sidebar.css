@@ -1,0 +1,16 @@
+.sidebar{
+    height: 100%;
+    max-width: 250px;
+}
+a{
+    color: white !important;
+}
+a:hover{
+    color: rgb(107, 107, 107) !important;
+}
+.nav-box{
+    border-bottom: 1px solid white;
+    /* set border width */
+    border-width: 0px 0px 1px 0px;
+    margin-top: 20px;
+}
